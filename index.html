@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <p class="pickDate">Enter your birth date:</p>
+        <input type="date" id="myDatePicker">
+        <button id="calculate-age" onclick="calculateAge()">Calculate</button>
+        <p id="exact-age"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

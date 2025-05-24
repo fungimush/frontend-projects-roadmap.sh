@@ -1,0 +1,44 @@
+
+body{
+font-family: 'Comic Sans MS';
+text-align: center;
+}
+
+.container {
+    background: white;
+    max-width: 30%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 10px;
+}
+
+.pickDate {
+  text-align:left;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+#myDatePicker{
+width: 350px;
+height: 40px;
+border-radius: 5px;
+font-weight: bold;
+border-color: black;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(72, 71, 71);
+    margin-top: 10px;    
+}
